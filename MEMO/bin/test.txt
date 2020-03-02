@@ -1,0 +1,11 @@
+		//mysql.create_table("shop_table");
+		//mysql.insert_record("Golf Town", "shirts", 1);
+		//mysql.drop_table("shop_table");
+		//mysql.delete_record_given_task_num(6);
+		//mysql.delete_record_given_place("Pan Chancho");
+		//mysql.delete_record_given_task("vegetables");
+		//mysql.insert_record("Pan Chancho", "macrons", 1);
+		//mysql.select_record_given_task_num(1);
+		//mysql.rank_by_priority();
+		//mysql.rank_by_deadline();
+		//mysql.update_task_nums();
