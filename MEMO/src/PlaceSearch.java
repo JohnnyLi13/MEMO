@@ -79,7 +79,7 @@ public class PlaceSearch {
 	
 	String get_place_details_request_url(String placeID){
 		String base_url = "https://maps.googleapis.com/maps/api/place/details/json?";
-		String API_Key = "AIzaSyDQk2KKNrMTKbTWOQmlOkU0LwI2UERVYIg";
+		String API_Key = "";
 		String fields_options = "formatted_address,geometry,opening_hours";
 		String request_url = base_url + "place_id=" + placeID + "&fields=" + fields_options + "&key=" + API_Key;
 		return request_url;
@@ -125,7 +125,7 @@ public class PlaceSearch {
 		String base_url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?";
 		String text_input = formatted_POI;
 		String text_input_type = "textquery";
-		String API_Key = "AIzaSyDQk2KKNrMTKbTWOQmlOkU0LwI2UERVYIg";
+		String API_Key = "";
 		request_url = base_url + "input=" + text_input + "&" + "inputtype=" + text_input_type + "&" + "key=" + API_Key;
 		//System.out.println(request_url);
 		return request_url;
