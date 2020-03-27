@@ -68,7 +68,7 @@ public class AutoDetect {
 			message = message + String.format("if stop by %s on your way from %s to %s, "
 					+ "it will be %s minutes extra time", waypoint, origin, destination, Integer.toString(fastest_time)) + "\n";
 		}
-		//System.out.println(message);
+		System.out.println(message);
 		JOptionPane.showMessageDialog(frame, message);
 	}
 	

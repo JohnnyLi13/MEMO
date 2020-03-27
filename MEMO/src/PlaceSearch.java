@@ -9,7 +9,7 @@ public class PlaceSearch {
 	
 	ArrayList<String> get_place_details_from_placeID(String placeID){
 		String request_url = get_place_details_request_url(placeID);
-		System.out.println(request_url);
+		//System.out.println(request_url);
 		ArrayList<String> place_details = new ArrayList<String>();
 		try {
 			URL url = new URL(request_url);
