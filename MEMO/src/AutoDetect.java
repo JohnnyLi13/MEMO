@@ -99,7 +99,7 @@ public class AutoDetect {
 		///
 		String request_url = directions_base_url + "origin=" + formatted_origin + "&destination=" + formatted_desti 
 				+ "&region=" + region
-				+ "&key=AIzaSyAkAwN3VgYGMdDBQj2Nyey13EBpZHI-5po";
+				+ "&key=";
 		System.out.println(request_url);
 		return request_url;
 	}
