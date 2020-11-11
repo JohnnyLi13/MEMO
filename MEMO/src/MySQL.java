@@ -13,9 +13,9 @@ public class MySQL {
     private Statement statement = null;
     //private PreparedStatement preparedStatement = null;
     private ResultSet resultSet = null;
-	String url = "jdbc:mysql://localhost:3306/shop";
-	String user      = "root";
-	String password  = "password";
+	String url = "jdbc:mysql://_________";
+	String user      = "";
+	String password  = "";
 	
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
