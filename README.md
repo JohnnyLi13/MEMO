@@ -1,5 +1,6 @@
-# MEMO
+# MEMO - 2019
 
+Download the repository, fill in your Google Maps API keys, and run the main.java file.
 
 Software that keeps track of daily tasks and helps save time on transportation between each task. Please contact for access.
 
